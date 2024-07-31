@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ethical Hacking Academy - Ghost</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="worlwide.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ethical Hacking Academy - Ghost</h1>
+            <p>Transforming Aspiring Hackers into Cybersecurity Experts</p>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-section">
+            <div class="container">
+                <h2 style="color: white;">Contact Us</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name" style="color: white;">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email"  style="color: white;">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message" style="color: white;">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2>Connect With Us</h2>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/yourpage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/yourprofile" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://wa.me/yourphonenumber" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+            <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+            <p>Email: <a href="mailto:info@ethicalhackingacademy.com">info@ethicalhackingacademy.com</a></p>
+            <p>&copy; 2024 Ethical Hacking Academy - Ghost - Your Gateway to a Thriving Cybersecurity Career</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
